@@ -7,10 +7,12 @@
 
 import UIKit
 
+// MARK: - Application Delegate
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -34,3 +36,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+// MARK: - Window Configurations
+extension AppDelegate {
+    
+    /// Sets the root `window` and the `rootViewController` when the app opens
+    private func setupWindow() {
+        
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        defer { self.window = window }
+        
+        
+        let navVC = UINavigationController(rootViewController: <#T##UIViewController#>)
+        
+    }
+    
+    internal func replaceRoot(with viewController: UIViewController) {
+        
+    }
+    
+}

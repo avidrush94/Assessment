@@ -184,7 +184,7 @@
 			children = (
 				E2F4C7602A88976000B46A38 /* Root */,
 				E2F4C7622A88977300B46A38 /* Screens */,
-				E2F4C7662A8898AA00B46A38 /* Managers */,
+				E2F4C7662A8898AA00B46A38 /* Services & Managers */,
 				E2F4C7692A88993E00B46A38 /* Models */,
 				E2F4C76C2A8899E200B46A38 /* Utilities */,
 				E2F4C76D2A8899EA00B46A38 /* Extensions */,
@@ -232,13 +232,13 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		E2F4C7662A8898AA00B46A38 /* Managers */ = {
+		E2F4C7662A8898AA00B46A38 /* Services & Managers */ = {
 			isa = PBXGroup;
 			children = (
 				E2F9CD782A88F8CB00221C9D /* UserManager.swift */,
 				E2F9CD872A89130100221C9D /* MealService.swift */,
 			);
-			path = Managers;
+			path = "Services & Managers";
 			sourceTree = "<group>";
 		};
 		E2F4C7692A88993E00B46A38 /* Models */ = {
@@ -841,7 +841,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UTXHA6LD6B;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.avidrush94.AssessmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -865,7 +865,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UTXHA6LD6B;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.avidrush94.AssessmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
